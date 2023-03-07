@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React from 'react';
 import axios from 'axios'
 
 import './App.css';
@@ -25,15 +25,21 @@ class App extends React.Component{
     render(){
         const {advice}=this.state
     return(
+        <>
         <div className='App'>
+            <div className='main-heading'>
+                <h1>Random Advice Generator</h1>
+            </div>
         <div className='card'>
            <h1 className='heading'>{advice}</h1>
            <button className='button' onClick={this.fetchAdvice}>
-                <span>GET ADVICE</span>
+                <span>GET Quote</span>
            </button>
         </div>
     </div>
+    </>
     )};
+  
 
 }
 export default App;

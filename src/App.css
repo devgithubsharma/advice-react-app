@@ -7,7 +7,7 @@
 
 .App{
     height: 100%;
-    background: url('./image/mots.jpg');
+    background: url('https://t3.ftcdn.net/jpg/02/83/54/94/360_F_283549444_QJP74KROpbcvsBvohYSSJxVfFIcqr5O8.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -22,15 +22,24 @@
     font-size: 24px;
 }
 
+.main-heading {
+    text-align: center;
+    align-items: center;
+    margin-top: -600px;
+    /* margin-left: 100px; */
+    color: white;
+}
+
 .card{
     background-color: rgb(186, 193, 193);
-    width: 65%;
+    width: 75%;
     height: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 0px;
+    margin-left: -350px;
     border-radius: 20px;
     box-shadow: 5px 5px 5px 5px rgb(85, 90, 90);
 
